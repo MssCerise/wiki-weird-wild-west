@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkwiki_rp=globalThis.webpackChunkwiki_rp||[]).push([[9547],{5107(e){e.exports=JSON.parse('{"metadata":{"permalink":"/wiki-weird-wild-west/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

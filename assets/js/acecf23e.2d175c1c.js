@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkwiki_rp=globalThis.webpackChunkwiki_rp||[]).push([[1903],{1912(i){i.exports=JSON.parse('{"blogBasePath":"/wiki-weird-wild-west/blog","blogTitle":"Blog","authorsListPath":"/wiki-weird-wild-west/blog/authors"}')}}]);
