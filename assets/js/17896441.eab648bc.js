@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki_rp=self.webpackChunkwiki_rp||[]).push([["106"],{4578(c,e,k){k.d(e,{A:()=>u}),k(6540);var i=k(1668),p=k(1970),s=k(7107),a=k(7875),r=k(6188);s.Yv.add(a.Cvc,r.X7I);let u={...i.A,FAIcon:p.gc}}}]);
