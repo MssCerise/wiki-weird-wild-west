@@ -34,8 +34,15 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fr',
+    locales: ['fr'],
+    localeConfigs: {
+      fr: {
+        label: 'Français',
+        htmlLang: 'fr',
+        direction: 'ltr',
+      },
+    },
   },
 
   presets: [
@@ -45,26 +52,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -78,24 +67,24 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
+        defaultMode: 'dark',
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Weird Wild West',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Weird Wild West',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'wikiSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Wiki',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/MssCerise/wiki-weird-wild-west',
             label: 'GitHub',
             position: 'right',
           },
@@ -105,46 +94,31 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Wiki',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+              {label: 'Accueil', to: '/docs/intro'},
+              {label: 'Règlement', to: '/docs/reglement/regles-rp'},
+              {label: 'Bien démarrer', to: '/docs/demarrer/installer-redm'},
             ],
           },
           {
-            title: 'Community',
+            title: 'Jeu',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
+              {label: 'Lore', to: '/docs/lore/contexte'},
+              {label: 'Métiers', to: '/docs/metiers/liste-metiers'},
+              {label: 'Factions', to: '/docs/factions/liste-factions'},
             ],
           },
           {
-            title: 'More',
+            title: 'Aide',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              {label: 'Commandes', to: '/docs/commandes/commandes-utiles'},
+              {label: 'Économie', to: '/docs/economie/systeme-economique'},
+              {label: 'Staff', to: '/docs/staff/contact'},
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Weird Wild West — Wiki du serveur RedM. ${new Date().getFullYear()}.`,
       },
       prism: {
         theme: prismThemes.github,

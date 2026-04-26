@@ -1,0 +1,9 @@
+{
+  "label": "Lore",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Univers & lore",
+    "description": "Histoire, époque, ambiance et ce qui fait l’identité du serveur."
+  }
+}

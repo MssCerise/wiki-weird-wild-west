@@ -1,0 +1,9 @@
+{
+  "label": "Commandes",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "title": "Commandes & raccourcis",
+    "description": "Commandes chat, touches et menus utiles."
+  }
+}
