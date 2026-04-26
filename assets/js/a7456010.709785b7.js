@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkwiki_rp=globalThis.webpackChunkwiki_rp||[]).push([[235],{8552(s){s.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
