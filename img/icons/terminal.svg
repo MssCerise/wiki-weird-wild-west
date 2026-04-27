@@ -1,7 +1,10 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="256px" height="256px" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" fill="#c4c4cc " stroke="#c4c4cc " stroke-width="0.00024000000000000003">
 <g id="SVGRepo_bgCarrier" stroke-width="0"/>
 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier"> <path d="M13 17H20" stroke="#e8dcc8 " stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M5 7L10 12L5 17" stroke="#e8dcc8 " stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </g>
+<g id="SVGRepo_iconCarrier">
+<path d="M21.5 3h-19A1.504 1.504 0 0 0 1 4.5v15A1.5 1.5 0 0 0 2.5 21h19a1.5 1.5 0 0 0 1.5-1.5v-15A1.504 1.504 0 0 0 21.5 3zm.5 16.5a.501.501 0 0 1-.5.5h-19a.501.501 0 0 1-.5-.5v-15a.506.506 0 0 1 .5-.5h19a.506.506 0 0 1 .5.5zM5.354 15.354l-.707-.707L7.793 11.5 4.646 8.354l.707-.707L9.207 11.5zM15 15h-5v-1h5z"/>
+<path fill="none" d="M0 0h24v24H0z"/>
+</g>
 </svg>
